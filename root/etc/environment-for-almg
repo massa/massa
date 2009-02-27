@@ -1,0 +1,14 @@
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games"
+export LANG="pt_BR.UTF-8"
+export LANGUAGE="pt_BR:pt:en"
+export NLS_LANG=PORTUGUESE_BRAZIL.AL32UTF8
+export NLS_DATE_FORMAT='YYYY-MM-DD HH24.MI.SS'
+export http_proxy=http://localhost:8123/
+export https_proxy=http://localhost:8123/
+export ftp_proxy=http://localhost:8123/
+export no_proxy=.almg.uucp
+export HTTP_PROXY=http://localhost:8123/
+export HTTPS_PROXY=http://localhost:8123/
+export FTP_PROXY=http://localhost:8123/
+export NO_PROXY=.almg.uucp
+export VBOX_LOG_DEST=nofile
