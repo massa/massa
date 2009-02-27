@@ -3,6 +3,7 @@ export LANG="pt_BR.UTF-8"
 export LANGUAGE="pt_BR:pt:en"
 export NLS_LANG=PORTUGUESE_BRAZIL.AL32UTF8
 export NLS_DATE_FORMAT='YYYY-MM-DD HH24.MI.SS'
+export TNS_ADMIN=/usr/lib/oracle/11.1/client64/network/admin
 export http_proxy=http://localhost:8123/
 export https_proxy=http://localhost:8123/
 export ftp_proxy=http://localhost:8123/
