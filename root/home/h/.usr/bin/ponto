@@ -12,11 +12,6 @@ use Date::Manip;
 
 sub D { use YAML::Syck; warn Dump(\@_)."\n---"; @_ }
 
-sub imprime_ponto($);
-sub calcula_ponto();
-
-imprime_ponto calcula_ponto;
-
 sub horas_para_minutos(@) {
   map { defined && /(\d\d):(\d\d)/ ? ($2 + 60 * $1) : 0 } @_
 }
@@ -125,36 +120,10 @@ use constant FORMATO_COMANDO =>
       (?:(\d\d:\d\d)\s*)?
     }xms;
 
-sub imprime_ponto($) {
-  for( @{$_[0]} ) {
-    my $s = '';
-    for( @{$_->[2]}  ) {
-      $s .= "  $_" for map { defined $_ ? $_ : '' } @$_
-    }
-    printf "%s %s %-45s >> %s %s %s\n", $_->[0], $_->[1], $s,
-      map minutos_para_horas $_, $_->[5], $_->[6], $_->[4]
-  }
-}
-
-sub inclui_argumentos(@);
-sub decodifica_pagina($$);
-sub le_pagina_ponto();
-sub pareia_marcacoes(@);
-sub soma_marcacoes($@);
-
-sub calcula_ponto() {
-  my @registros_de_ponto;
-  for( inclui_argumentos decodifica_pagina le_pagina_ponto, FORMATO_PAGINA ) {
-    my ($dia_do_mes, $dia_da_semana, @marcacoes) = @$_;
-    my ($antigo_total_do_mes, $antiga_diferenca_do_mes) = @registros_de_ponto ? @{$registros_de_ponto[-1]}[3 .. 4] : (0, 0);
-    push @registros_de_ponto, [$dia_do_mes, $dia_da_semana, \@marcacoes, $antigo_total_do_mes, $antiga_diferenca_do_mes, 0, 0];
-    my ($total_do_mes, $diferenca_do_mes, $total_do_dia, $diferenca_do_dia) = \ @{$registros_de_ponto[-1]}[3 .. 6];
-    $$total_do_dia = soma_marcacoes $registros_de_ponto[-1], @marcacoes;
-    $$total_do_mes += $$total_do_dia;
-    $$diferenca_do_dia = $$total_do_dia - HORAS_POR_DIA_M;
-    $$diferenca_do_mes += $$diferenca_do_dia;
-  }
-  \@registros_de_ponto
+sub slurpfile($) {
+  my($_, $f) = @_;
+  chomp(@_ = <$f>) if open $f, '<', $_;
+  @_
 }
 
 sub hoje() {
@@ -170,10 +139,12 @@ sub ultimo_dia(\@) {
   map { 'ARRAY' eq ref $_ ? (grep defined, @$_) : ($_) } @$ultimo
 }
 
-sub slurpfile($) {
-  my($_, $f) = @_;
-  chomp(@_ = <$f>) if open $f, '<', $_;
-  @_
+sub decodifica_pagina($$) {
+  (local $_, my $re) = @_;
+  my @marcacoes;
+  push @marcacoes, [ $1, $2, pareia_marcacoes $3, $4, $5, $6, $7, $8, $9, $10, $11, $12 ]
+    while /$re/g;
+  @marcacoes
 }
 
 sub inclui_argumentos(@) {
@@ -192,12 +163,17 @@ sub inclui_argumentos(@) {
   sort { $a->[0] <=> $b->[0] } @_
 }
 
-sub decodifica_pagina($$) {
-  (local $_, my $re) = @_;
+sub pareia_marcacoes(@) {
   my @marcacoes;
-  push @marcacoes, [ $1, $2, pareia_marcacoes $3, $4, $5, $6, $7, $8, $9, $10, $11, $12 ]
-    while /$re/g;
-  @marcacoes
+  for( @_ ) {
+    last unless defined;
+    if( @marcacoes ) {
+      my($this, $last) = horas_para_minutos $_, $marcacoes[$#marcacoes];
+      next if $this - $last <= 15
+    }
+    push @marcacoes, $_
+  }
+  map +[$marcacoes[2*$_], $marcacoes[2*$_+1]], 0 .. $#marcacoes/2
 }
 
 sub le_pagina_ponto() {
@@ -212,19 +188,6 @@ sub le_pagina_ponto() {
   $ua->success or die $@;
   $ua->title =~ PAGINA_CERTA or die 'Wrong page';
   decode latin1 => $ua->content
-}
-
-sub pareia_marcacoes(@) {
-  my @marcacoes;
-  for( @_ ) {
-    last unless defined;
-    if( @marcacoes ) {
-      my($this, $last) = horas_para_minutos $_, $marcacoes[$#marcacoes];
-      next if $this - $last <= 15
-    }
-    push @marcacoes, $_
-  }
-  map +[$marcacoes[2*$_], $marcacoes[2*$_+1]], 0 .. $#marcacoes/2
 }
 
 sub soma_marcacoes($@) {
@@ -250,4 +213,33 @@ sub soma_marcacoes($@) {
   }
   $total_do_dia
 }
+
+
+sub calcula_ponto() {
+  my @registros_de_ponto;
+  for( inclui_argumentos decodifica_pagina le_pagina_ponto, FORMATO_PAGINA ) {
+    my ($dia_do_mes, $dia_da_semana, @marcacoes) = @$_;
+    my ($antigo_total_do_mes, $antiga_diferenca_do_mes) = @registros_de_ponto ? @{$registros_de_ponto[-1]}[3 .. 4] : (0, 0);
+    push @registros_de_ponto, [$dia_do_mes, $dia_da_semana, \@marcacoes, $antigo_total_do_mes, $antiga_diferenca_do_mes, 0, 0];
+    my ($total_do_mes, $diferenca_do_mes, $total_do_dia, $diferenca_do_dia) = \ @{$registros_de_ponto[-1]}[3 .. 6];
+    $$total_do_dia = soma_marcacoes $registros_de_ponto[-1], @marcacoes;
+    $$total_do_mes += $$total_do_dia;
+    $$diferenca_do_dia = $$total_do_dia - HORAS_POR_DIA_M;
+    $$diferenca_do_mes += $$diferenca_do_dia;
+  }
+  \@registros_de_ponto
+}
+
+sub imprime_ponto($) {
+  for( @{$_[0]} ) {
+    my $s = '';
+    for( @{$_->[2]}  ) {
+      $s .= "  $_" for map { defined $_ ? $_ : '' } @$_
+    }
+    printf "%s %s %-45s >> %s %s %s\n", $_->[0], $_->[1], $s,
+      map minutos_para_horas $_, $_->[5], $_->[6], $_->[4]
+  }
+}
+
+imprime_ponto calcula_ponto
 
