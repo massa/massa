@@ -170,12 +170,14 @@ sub ultimo_dia(\@) {
   map { 'ARRAY' eq ref $_ ? (grep defined, @$_) : ($_) } @$ultimo
 }
 
+sub slurpfile($) {
+  my($_, $f) = @_;
+  chomp(@_ = <$f>) if open $f, '<', $_;
+  @_
+}
+
 sub inclui_argumentos(@) {
-  my @g;
-  if( open my $g, '<', "$ENV{HOME}/.ponto" ) {
-    chomp(@g = <$g>)
-  }
-  for( "@ARGV", @g ) {
+  for( "@ARGV", slurpfile "$ENV{HOME}/.ponto" ) {
     next unless length;
 # Sintaxe especial: "+ ..." adiciona ao final do último dia
     s/^\s*\+\s*/@{[ultimo_dia @_]} /;
