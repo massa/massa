@@ -1,0 +1,251 @@
+#!/usr/bin/perl
+
+# (C) Humberto Massa 2008
+# available to anyone under the terms of any of the following licenses,
+# at recipient's will: GNU GPLv2, GNU GPLv3, CC-GPLv2, CC-SAv3.0
+
+use massa;
+
+use WWW::Mechanize;
+use Encode;
+use Date::Manip;
+
+sub D { use YAML::Syck; warn Dump(\@_)."\n---"; @_ }
+
+sub imprime_ponto($);
+sub calcula_ponto();
+
+imprime_ponto calcula_ponto;
+
+sub horas_para_minutos(@) {
+  map { defined && /(\d\d):(\d\d)/ ? ($2 + 60 * $1) : 0 } @_
+}
+
+sub minutos_para_horas($) {
+  my $m = do { no warnings 'numeric'; 0+$_[0] };
+  return '       ' if $m == 0;
+  my $s = $m < 0 ? '-' : '+';
+  $m = abs $m;
+  sprintf '%s%03d:%02d', $s, ($m/60), ($m%60)
+}
+
+sub em_casa() {
+  open my $f, '-|', 'ifconfig eth0';
+  my @addrs;
+  push @addrs, /(\d+\.\d+\.\d+\.(?:[1-9]|1?\d\d|2[0-4]\d|25[0-4]))(?=\D)/g while <$f>;
+  grep /^192.168.88/, @addrs
+}
+
+use constant ENDERECO =>             em_casa ? 'extranet.almg.gov.br' : 'intranet.almg.uucp';
+use constant PAGINA_PONTO =>         "https://@{[ENDERECO]}/PS01webRegistrosFuncionais/PS01pgw001MarcacoesPonto.asp";
+
+use constant FORM_LOGIN =>           'frmlogin';
+use constant CREDENCIAIS =>          { txtlogin => 'massa', txtsenha => '3u5k4r4' };
+use constant COOKIES =>              { file => '/tmp/cookies-ponto.txt', autosave => 1, ignore_discard => 1 };
+use constant HORAS_POR_DIA =>        '06:00';
+use constant HORA_ENTRADA =>         '07:30';
+use constant HORA_FINAL_ENTRADA =>   '08:00';
+use constant HORA_SAIDA =>           '17:00';
+use constant HORAS_POR_DIA_M =>      horas_para_minutos HORAS_POR_DIA;
+use constant HORA_ENTRADA_M =>       horas_para_minutos HORA_ENTRADA;
+use constant HORA_FINAL_ENTRADA_M => horas_para_minutos HORA_FINAL_ENTRADA;
+use constant HORA_SAIDA_M =>         horas_para_minutos HORA_SAIDA;
+use constant PAGINA_CERTA =>
+    qr{^Marca};
+use constant FORMATO_PAGINA =>
+    qr{
+      <tr>
+      \s*<td[^>]*>
+      (\d+)                                               # dia do mês
+      </td>
+      \s*<td[^>]*>
+      (seg|ter|qua|qui|sex)                               # dia da semana
+      </td>
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      (?:
+        \s*<td[^>]*>
+        ([^<]*)
+        </td>
+      )?
+      \s*
+      </tr>
+    }xms;
+use constant FORMATO_COMANDO =>
+    qr{
+      (\d+)\s*(seg|ter|qua|qui|sex)\s*
+      (?:(\d\d:\d\d)\s*)?
+      (?:(\d\d:\d\d)\s*)?
+      (?:(\d\d:\d\d)\s*)?
+      (?:(\d\d:\d\d)\s*)?
+      (?:(\d\d:\d\d)\s*)?
+      (?:(\d\d:\d\d)\s*)?
+    }xms;
+
+sub imprime_ponto($) {
+  for( @{$_[0]} ) {
+    my $s = '';
+    for( @{$_->[2]}  ) {
+      $s .= "  $_" for map { defined $_ ? $_ : '' } @$_
+    }
+    printf "%s %s %-45s >> %s %s %s\n", $_->[0], $_->[1], $s,
+      map minutos_para_horas $_, $_->[5], $_->[6], $_->[4]
+  }
+}
+
+sub inclui_argumentos(@);
+sub decodifica_pagina($$);
+sub le_pagina_ponto();
+sub pareia_marcacoes(@);
+sub soma_marcacoes($@);
+
+sub calcula_ponto() {
+  my @registros_de_ponto;
+  for( inclui_argumentos decodifica_pagina le_pagina_ponto, FORMATO_PAGINA ) {
+    my ($dia_do_mes, $dia_da_semana, @marcacoes) = @$_;
+    my ($antigo_total_do_mes, $antiga_diferenca_do_mes) = @registros_de_ponto ? @{$registros_de_ponto[-1]}[3 .. 4] : (0, 0);
+    push @registros_de_ponto, [$dia_do_mes, $dia_da_semana, \@marcacoes, $antigo_total_do_mes, $antiga_diferenca_do_mes, 0, 0];
+    my ($total_do_mes, $diferenca_do_mes, $total_do_dia, $diferenca_do_dia) = \ @{$registros_de_ponto[-1]}[3 .. 6];
+    $$total_do_dia = soma_marcacoes $registros_de_ponto[-1], @marcacoes;
+    $$total_do_mes += $$total_do_dia;
+    $$diferenca_do_dia = $$total_do_dia - HORAS_POR_DIA_M;
+    $$diferenca_do_mes += $$diferenca_do_dia;
+  }
+  \@registros_de_ponto
+}
+
+sub hoje() {
+  $_ = UnixDate 'today', '%d %w';
+  my @a = qw{seg ter qua qui sex sab dom};
+  s/(\d+)$/$a[$1-1]/e;
+  $_
+}
+
+sub ultimo_dia(\@) {
+  return hoje unless @{$_[0]};
+  my $ultimo = $_[0][-1];
+  map { 'ARRAY' eq ref $_ ? (grep defined, @$_) : ($_) } @$ultimo
+}
+
+sub inclui_argumentos(@) {
+  my @g;
+  if( open my $g, '<', "$ENV{HOME}/.ponto" ) {
+    chomp(@g = <$g>)
+  }
+  for( "@ARGV", @g ) {
+    next unless length;
+# Sintaxe especial: "+ ..." adiciona ao final do último dia
+    s/^\s*\+\s*/@{[ultimo_dia @_]} /;
+
+    my @argumentos = decodifica_pagina $_, FORMATO_COMANDO;
+    return @_ unless @argumentos;
+    for my $argumento ( @argumentos ) {
+      @_ = grep { $_->[0] != $argumento->[0] } @_
+    }
+    push @_, @argumentos
+  }
+  sort { $a->[0] <=> $b->[0] } @_
+}
+
+sub decodifica_pagina($$) {
+  (local $_, my $re) = @_;
+  my @marcacoes;
+  push @marcacoes, [ $1, $2, pareia_marcacoes $3, $4, $5, $6, $7, $8, $9, $10, $11, $12 ]
+    while /$re/g;
+  @marcacoes
+}
+
+sub le_pagina_ponto() {
+  delete $ENV{'HTTPS_PROXY'};
+  delete $ENV{'https_proxy'};
+  my $ua = new WWW::Mechanize(cookie_jar => COOKIES, conn_cache => undef);
+  $ua->no_proxy(ENDERECO);
+
+  $ua->get(PAGINA_PONTO);
+  $ua->success or die $@;
+  $ua->submit_form(form_name => FORM_LOGIN, fields => CREDENCIAIS)  unless $ua->title =~ PAGINA_CERTA;
+  $ua->success or die $@;
+  $ua->title =~ PAGINA_CERTA or die 'Wrong page';
+  decode latin1 => $ua->content
+}
+
+sub pareia_marcacoes(@) {
+  my @marcacoes;
+  for( @_ ) {
+    last unless defined;
+    if( @marcacoes ) {
+      my($this, $last) = horas_para_minutos $_, $marcacoes[$#marcacoes];
+      next if $this - $last <= 15
+    }
+    push @marcacoes, $_
+  }
+  map +[$marcacoes[2*$_], $marcacoes[2*$_+1]], 0 .. $#marcacoes/2
+}
+
+sub soma_marcacoes($@) {
+  my $registro_de_ponto = shift;
+  my $total_do_dia = 0;
+  for( @_ ) {
+      my ($marcacao_entrada, $marcacao_saida) = @$_;
+      $marcacao_saida = HORA_SAIDA unless defined $marcacao_saida;
+      # Em minutos para poder fazer as contas:
+      my ($entrada, $saida) = horas_para_minutos $marcacao_entrada, $marcacao_saida;
+      # Não conta se eu entrar antes da hora de entrada:
+      $entrada = HORA_ENTRADA_M if $entrada < HORA_ENTRADA_M;
+      # Nem se seu sair após da hora de saida, A NÃO SER QUE --
+      # -- eu tenha entrado depois da hora final de entrada, E
+      # -- exista mais de um intervalo entrada/saida marcado
+      $saida = HORA_SAIDA_M if $saida > HORA_SAIDA_M and $entrada > HORA_FINAL_ENTRADA_M and @_ < 2;
+      my $diferenca = $saida - $entrada;
+      # Somente conta a mais do que as horas regulamentares se --
+      # -- existir mais de um intervalo
+      $diferenca = HORAS_POR_DIA_M if $diferenca > HORAS_POR_DIA_M and @_ < 2;
+      $total_do_dia += $diferenca;
+      push @$registro_de_ponto, [ $entrada, $saida, $diferenca, $total_do_dia ]
+  }
+  $total_do_dia
+}
+
