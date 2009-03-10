@@ -1,1 +1,0 @@
-/home/h/.bash_profile
