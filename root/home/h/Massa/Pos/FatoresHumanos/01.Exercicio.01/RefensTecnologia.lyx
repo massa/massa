@@ -1,0 +1,179 @@
+#LyX 1.6.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\language brazilian
+\inputencoding utf8
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 0
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\topmargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Somos reféns da tecnologia?
+\end_layout
+
+\begin_layout Author
+Humberto Massa Guimarães
+\end_layout
+
+\begin_layout Date
+31.03.2009
+\end_layout
+
+\begin_layout Standard
+Em princípio, sim.
+ Afinal de contas, eu estou digitando este texto num shopping center, enquanto
+ minha filha de três anos está brincando com as monitoras.
+ Eu levo, não só o celular, mas muitas vezes o 
+\emph on
+laptop
+\emph default
+ para o banheiro (jornais e revistas sujam as mãos de tinta, e eu prefiro
+ o hipertexto, de todo modo).
+ Eu leio algo entre trezentos e quatrocentos emails por dia e costumo triar
+ cerca de 2000 manchetes para poder ler entre trezentos e quatrocentos artigos
+ por dia.
+\end_layout
+
+\begin_layout Standard
+O 
+\emph on
+e-mail
+\emph default
+ é a maneira mais eficaz de me comunicar com meus amigos.
+ Um telefonema pode encontrar alguém dirigindo ou no meio de uma reunião.
+ Um 
+\emph on
+e-mail
+\emph default
+ será lido no momento que o destinatário estiver disponível, e pode conter,
+ por exemplo, um link para o Google Maps indicando onde será o encontro,
+ ou uma festa.
+\end_layout
+
+\begin_layout Standard
+As mensagens SMS são a maneira mais eficaz de me comunicar com minha esposa.
+ No celular, ela pode me indicar (com razoável certeza de que eu tomarei
+ ciência antes de ir para casa) que a Coca Zero acabou e que eu preciso
+ passar no supermercado para completar o estoque, ou que uma das crianças
+ precisa de determinado remédio (cujo nome não será esquecido, nem o papelzinho
+ onde anotei será perdido).
+\end_layout
+
+\begin_layout Standard
+O Google Calendar me enviará um SMS para dizer que daí a meia hora (ou 45
+ minutos) eu tenho dentista ou médico, normalmente a tempo de que eu saia
+ do trabalho para aquele compromisso.
+ Ele irá também me bipar cinco minutos antes daquela importante reunião
+ com o meu chefe.
+\end_layout
+
+\begin_layout Standard
+Através do Blogger eu atualizo a meia dúzia de pessoas que se importa a
+ respeito do que eu estou fazendo, como e porque.
+ Através do Google Reader eu me atualizo, descubro novas ferramentas, reativo
+ velhas amizades, e crio novas.
+\end_layout
+
+\begin_layout Standard
+Eu leio livros de ficção no celular, e artigos acadêmicos interessantes...
+ A própria pós-graduação nos torna reféns do Moodle, já que temos que utilizar
+ esse sistema web para a entrega dos trabalhos (e para revisar os slides
+ das aulas, o enunciado dos exercícios, os textos de apoio....) Mais: como muitos
+ dos alunos temos emprego e precisamos estar batendo ponto, a lista de emails
+ do curso faz com que possamos interagir e estudar tópicos que não fizeram
+ parte da aula (ou mesmo, "hiper-textualizando", a lista nos entrega os
+ endereços web de interessantes digressões que apareceram durante a mesma).
+\end_layout
+
+\begin_layout Standard
+Eu não assisto TV aberta, e mesmo a TV por assinatura me serve mais como
+ uma fonte de sugestões de programas do que dos programas propriamente ditos.
+ Uma vez que eu goste de um programa de TV, o que costuma acontecer é que
+ eu assisto via internet até sincronizar o meu calendário com o do lançamento
+ de cada episódio no país de origem.
+ Tirando o ritmo de produção, quem faz a minha grade de programação sou
+ eu.
+\end_layout
+
+\begin_layout Standard
+Antes de ir a qualquer lugar que não visitei antes, eu procuro no Google
+ Maps o melhor caminho e, normalmente, acompanho a parte desconhecida do
+ itinerário com o GPS.
+\end_layout
+
+\begin_layout Standard
+É interessante ver que eu não sou "nós".
+ Fazendo parte de um público atípico, eu vivo de desenvolvimento de software
+ e, mesmo entre meus pares desenvolvedores, eu sou muito mais tecnófilo
+ que a maioria.
+\end_layout
+
+\begin_layout Standard
+No entanto, eu não me considero um "viciado"...
+ mas é claro que isso é o que qualquer adicto diria, não é? Eu posso ficar
+ uma ou duas semanas na praia, sem checar meus 
+\emph on
+e-mails
+\emph default
+ e sem sinal de celular, e me divertir.
+ E numa noite de festa, se eu chegar em casa e for checar meus 
+\emph on
+e-mails
+\emph default
+, é provavelmente indício de que a festa não estava lá essas coisas...
+\end_layout
+
+\begin_layout Standard
+Em resumo, obviamente a tecnologia pode fazer parte da nossa vida e, quando
+ se vive tendo a tecnologia como atividade-fim (como é o meu caso), ela
+ realmente tem grande influência em como a pessoa se comporta e se comunica;
+ entretanto, isso não significa que a pessoa não possa viver sem ela.
+\end_layout
+
+\end_body
+\end_document
