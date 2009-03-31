@@ -1,0 +1,347 @@
+#LyX 1.6.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\language brazilian
+\inputencoding utf8
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 0
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\topmargin 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Exercício 01
+\begin_inset Newline newline
+\end_inset
+
+Trajeto de ônibus
+\end_layout
+
+\begin_layout Author
+Charles Silva Lacerda
+\begin_inset Newline newline
+\end_inset
+
+Érica Cardoso Goulart
+\begin_inset Newline newline
+\end_inset
+
+Felipe Bittencourt Barroso Toledo
+\begin_inset Newline newline
+\end_inset
+
+Humberto Massa Guimarães
+\end_layout
+
+\begin_layout Date
+31.03.2009
+\end_layout
+
+\begin_layout Part
+Objetivos
+\end_layout
+
+\begin_layout Enumerate
+usuários
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+agrupados por 
+\begin_inset Quotes eld
+\end_inset
+
+tipo social
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\begin_inset Quotes eld
+\end_inset
+
+blue collar
+\begin_inset Quotes erd
+\end_inset
+
+, estudantes, 
+\begin_inset Quotes eld
+\end_inset
+
+white collar
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+agrupados por conhecimento do percurso:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+sem conhecimento do sistema de transporte público de BH;
+\end_layout
+
+\begin_layout Enumerate
+com conhecimento do sistema, sem conhecimento do percurso específico;
+\end_layout
+
+\begin_layout Enumerate
+com conhecimento do percurso.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+artefatos
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+mapas
+\end_layout
+
+\begin_layout Enumerate
+guias
+\end_layout
+
+\begin_layout Enumerate
+computador
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Google
+\end_layout
+
+\begin_layout Enumerate
+Google Maps
+\end_layout
+
+\begin_layout Enumerate
+Como Vou
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+ambiente
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+casa
+\end_layout
+
+\begin_layout Enumerate
+rua
+\end_layout
+
+\begin_layout Enumerate
+ponto inicial
+\end_layout
+
+\begin_layout Enumerate
+ônibus
+\end_layout
+
+\begin_layout Enumerate
+ponto final
+\end_layout
+
+\begin_layout Enumerate
+destino
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+ações
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+descobrir a linha do ônibus
+\end_layout
+
+\begin_layout Enumerate
+descobrir a localização do ponto
+\end_layout
+
+\begin_layout Enumerate
+entrar no ônibus
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+qual porta?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+pagar a passagem
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+em dinheiro contado
+\end_layout
+
+\begin_layout Enumerate
+em dinheiro com troco
+\end_layout
+
+\begin_layout Enumerate
+com cartão BHBus
+\end_layout
+
+\begin_layout Enumerate
+comprar cartão pré-pago BHBus
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+descobrir onde descer
+\end_layout
+
+\begin_layout Enumerate
+ocupar lugar / esperar
+\end_layout
+
+\begin_layout Enumerate
+descer
+\end_layout
+
+\end_deeper
+\begin_layout Part
+Técnicas
+\end_layout
+
+\begin_layout Itemize
+Etnografia
+\end_layout
+
+\begin_layout Itemize
+Mapeamento
+\end_layout
+
+\begin_layout Itemize
+Análise da Tarefa
+\end_layout
+
+\begin_layout Part
+Percurso realizado
+\end_layout
+
+\begin_layout Section*
+Humberto
+\end_layout
+
+\begin_layout Standard
+Busquei no Google Maps como ir de minha casa até o Museu de Ciências Naturais
+ da PUC.
+ Encontrei no link 
+\begin_inset CommandInset href
+LatexCommand href
+name "itinerário"
+target "http://maps.google.com/maps?f=d&source=s_d&saddr=Av.+Luis+Paulo+Franco+-+Belvedere,+Belo+Horizonte+-+MG,+30320-570,+BRA&daddr=R.+Dom+Jos%C3%A9+Gaspar,+290+-+Belo+Horizonte+-+MG,+30535-610,+Brazil+(Museu+de+Ci%C3%AAncias+Naturais+PUC+Minas)&hl=pt-BR&geocode=%3BFTID0P4dNMVg_SGS7ySg_zsaAg&mra=ls&dirflg=r&date=31%2F03%2F09&time=3:33pm&ttype=dep&noexp=0&noal=0&sort=&tline=&sll=-19.948025,-43.9651&sspn=0.076647,0.055275&ie=UTF8&ll=-19.943579,-43.965998&spn=0.076649,0.055275&z=14&start=0"
+
+\end_inset
+
+que deveria tomar o ônibus da linha 4110.
+ Andamos (eu e meu filho) alguns metros até o ponto do ônibus.
+ Entramos no ônibus, que não estava com os assentos cheios nem vazios.
+ Fiz o pagamento de duas passagens a R$
+\begin_inset space ~
+\end_inset
+
+2,30 cada com uma nota de R$
+\begin_inset space ~
+\end_inset
+
+5,00 recebendo o troco em moedas.
+ Encontramos uma dupla de assentos vazios adjacentes, sentamos e esperamos
+ por aproximadamente 35 minutos.
+ Ao avistarmos o museu, demos o sinal, o ônibus parou e descemos.
+\end_layout
+
+\begin_layout Part
+Falhas e soluções apresentadas
+\end_layout
+
+\begin_layout Description
+Trocador o trocador e a roleta (ou catraca) são pontos de contenção quando
+ o ônibus está cheio, em horários de grande movimento; uma solução para
+ isso seria a utilização somente de passagens pré-pagas, ou seja, concentrar
+ os trocadores em pontos-de-venda fora dos ônibus (esses pontos-de-venda
+ poderiam também ser automatizados, tipo 
+\begin_inset Quotes eld
+\end_inset
+
+vending machines
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Ônibus o ônibus muitas vezes encontra-se cheio e ...; uma solução seria aumentar
+ o número de assentos retráteis, mantendo-os automaticamente retraídos ou
+ travados durante os períodos de pico, com possibilidade de destravamento
+ pelo motorista ou cobrador.
+\end_layout
+
+\begin_layout Description
+
+\end_layout
+
+\end_body
+\end_document
