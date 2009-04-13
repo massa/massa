@@ -1,0 +1,384 @@
+#LyX 1.6.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\hyphenpenalty=5500
+\doublehyphendemerits=10000
+\finalhyphendemerits=60000
+\end_preamble
+\use_default_options false
+\language brazilian
+\inputencoding auto
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 0
+\use_esint 0
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+A Internet tem comprometido o desenvolvimento das crianças?
+\end_layout
+
+\begin_layout Author
+Humberto Massa Guimarães
+\end_layout
+
+\begin_layout Date
+31.03.2009
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand citep
+key "abnt-etal-cite=2"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "abnt-experimental=yes"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "abnt-etal-list=2"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "abnt-verbatim-entry=no"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "abnt-full-initials=yes"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "abnt-substyle=COPPE"
+
+\end_inset
+
+Atualmente, é grande a preocupação relativa à influência da Internet no
+ desenvolvimento de crianças e adolescentes.
+ Isso se deve ao fato de que, principalmente em países desenvolvidos, grande
+ parte das crianças têm acesso a computadores domésticos, muitas vezes conectado
+s à rede.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "fifeschaw1986ptc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As crianças costumam aumentar o tempo de exposição a uma tela (
+\begin_inset Quotes eld
+\end_inset
+
+screen time
+\begin_inset Quotes erd
+\end_inset
+
+) quando o computador faz parte das atividades diárias.
+ Esse tempo de exposição, quando prolongado, costuma implicar em um riscos
+ físicos mais acentuados associados ao sedentarismo, como a obesidade, ou
+ ao próprio uso do computador, como problemas ortopédicos.
+ O uso do computador é também frequentemente uma atividade solitária, incorrendo
+ em risco psicológico.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2000ihc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por outro lado, a Internet tem um efeito positivo no aumento da interação
+ social através de sistemas de 
+\begin_inset Quotes eld
+\end_inset
+
+messaging
+\begin_inset Quotes erd
+\end_inset
+
+ instantâneo e correio eletrônico, e a maior parte do tempo gasto conectado
+ à rede é dispendida em interações sociais.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2001icu"
+
+\end_inset
+
+ Estudos realizados não salientam diferenças na sociabilidade das crianças
+ e adolescentes que utilizam o computador durante mais tempo durante o dia
+ e aqueles que não o fazem.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2000ihc"
+
+\end_inset
+
+ Entretanto, salienta-se que num cenário de uso excessivo, há a dominância
+ de realidades e mundos simulados e imaginados, em contraponto à necessidade
+ de experiências reais e que, em interações pelo computador, onde muitas
+ vezes são utilizados avatares e 
+\begin_inset Quotes eld
+\end_inset
+
+personas
+\begin_inset Quotes erd
+\end_inset
+
+ diferenciadas daquelas do mundo real, paira sempre a dúvida sobre a identidade
+ do interlocutor, com reflexos na formação da própria identidade da criança,
+ além dos riscos para a segurança da mesma.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2000ihc,subrahmanyam2001icu"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A exposição à Internet como fonte de consulta frequentemente parece resultar
+ em melhora no desempenho acadêmico das crianças.
+ Entretanto, não há pesquisas suficientes para comprovar solidamente o nexo
+ causal entre esses dois fatores.
+ Há necessidade de maiores pesquisas para determinar o efeito da utilização
+ do computador a longo prazo na capacidade cognitiva e conquistas acadêmicas.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2000ihc"
+
+\end_inset
+
+ A exposição de crianças e adolescentes a alguns tipos de jogos, entretanto,
+ já foi comprovada como tendo efeitos imediatos positivos na atenção, visão
+ e noção espaciais e desempenho cognitivo.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam1996evg"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A exposição a jogos violentos, especialmente aqueles nos quais o uso da
+ violência é recompensado, comprovadamente aumentam a agressividade, tanto
+ afetiva e cognitiva quanto comportamental das crianças observadas.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "anderson2004vvg"
+
+\end_inset
+
+ Além da exposição a esse tipo de jogos, há o material inapropriado de natureza
+ sexual.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ybarra2005eip"
+
+\end_inset
+
+ Associados a este último vêm os riscos consequentes que variam desde o
+ erro em informações referentes à reprodução, até a possibilidade de desenvolvim
+ento de comportamento sexualmente compulsivo.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "freemanlongo2000cta"
+
+\end_inset
+
+ E, por fim, existe ainda o risco do 
+\begin_inset Quotes eld
+\end_inset
+
+cyber-bullying
+\begin_inset Quotes erd
+\end_inset
+
+, ataques de natureza difamatória que ocorrem 
+\begin_inset Quotes eld
+\end_inset
+
+online
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Entretanto, estes últimos são muito análogos ao fenômeno do 
+\begin_inset Quotes eld
+\end_inset
+
+bullying
+\begin_inset Quotes erd
+\end_inset
+
+ que ocorre nas mesmas faixas etárias, ou seja, não se trata de um risco
+ intrinsecamente ligado ao uso da Internet e sim ao ambiente e às interações
+ sociais da criança.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ybarra2004oat,ybarra2004yeo"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pesquisas junto aos pais indicam que estes frequentemente compram os computadore
+s e pagam pela conexão à Internet como um recurso educacional extra.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2000ihc"
+
+\end_inset
+
+ Também indicam que frequentemente eles desconhecem o conteúdo de jogos
+ e a dinâmica de interações sociais 
+\begin_inset Quotes eld
+\end_inset
+
+online
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2001icu"
+
+\end_inset
+
+ Indicam ainda que, como muitas vezes as crianças têm mais conhecimento
+ que eles em relação ao uso do computador e da Internet, ocorre uma inversão
+ dos papéis de ensino/aprendizagem, com consequentes problemas de identidade.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "subrahmanyam2001icu"
+
+\end_inset
+
+ A maioria das pesquisas consultadas recomenda como mitigantes dos riscos
+ associados à exposição das crianças à internet a moderação no tempo de
+ uso da rede 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "attewell2003cay,subrahmanyam2000ihc,subrahmanyam2001icu"
+
+\end_inset
+
+ e o efetivo acompanhamento das atividades realizadas no computador por
+ parte dos pais ou responsáveis.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "attewell2003cay,freemanlongo2000cta,ybarra2004oat,ybarra2004yeo,ybarra2005eip"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em conclusão, a utilização da Internet pelas crianças pode comprometer,
+ e provavelmente tem comprometido, o desenvolvimento das crianças, causando
+ diversos problemas físicos e psicológicos.
+ Por outro lado, existem vários benefícios que advêm de seu uso, especialmente
+ quando é feito de forma moderada e sob o constante acompanhamento e monitoramen
+to dos adultos responsáveis.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "abnt-options,Internet"
+options "abnt-alf"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
