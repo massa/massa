@@ -7,6 +7,7 @@
 \hyphenpenalty=5500
 \doublehyphendemerits=10000
 \finalhyphendemerits=60000
+\tolerance=1000
 \end_preamble
 \use_default_options false
 \language brazilian
@@ -74,42 +75,42 @@ Humberto Massa Guimarães
 
 \begin_layout Standard
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand nocite
 key "abnt-etal-cite=2"
 
 \end_inset
 
 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand nocite
 key "abnt-experimental=yes"
 
 \end_inset
 
 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand nocite
 key "abnt-etal-list=2"
 
 \end_inset
 
 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand nocite
 key "abnt-verbatim-entry=no"
 
 \end_inset
 
 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand nocite
 key "abnt-full-initials=yes"
 
 \end_inset
 
 
 \begin_inset CommandInset citation
-LatexCommand citep
+LatexCommand nocite
 key "abnt-substyle=COPPE"
 
 \end_inset
@@ -130,7 +131,7 @@ key "fifeschaw1986ptc"
 \end_layout
 
 \begin_layout Standard
-As crianças costumam aumentar o tempo de exposição a uma tela (
+As crianças terminam por aumentar o tempo de exposição a uma tela (
 \begin_inset Quotes eld
 \end_inset
 
@@ -139,10 +140,10 @@ screen time
 \end_inset
 
 ) quando o computador faz parte das atividades diárias.
- Esse tempo de exposição, quando prolongado, costuma implicar em um riscos
- físicos mais acentuados associados ao sedentarismo, como a obesidade, ou
- ao próprio uso do computador, como problemas ortopédicos.
- O uso do computador é também frequentemente uma atividade solitária, incorrendo
+ Esse tempo de exposição, quando prolongado, implica em riscos físicos mais
+ acentuados associados ao sedentarismo, como a obesidade, ou ao próprio
+ uso do computador, como problemas ortopédicos.
+ O uso do computador é também usualmente uma atividade solitária, incorrendo
  em risco psicológico.
  
 \begin_inset CommandInset citation
@@ -185,8 +186,9 @@ key "subrahmanyam2000ihc"
 
  Entretanto, salienta-se que num cenário de uso excessivo, há a dominância
  de realidades e mundos simulados e imaginados, em contraponto à necessidade
- de experiências reais e que, em interações pelo computador, onde muitas
- vezes são utilizados avatares e 
+ de experiências reais.
+ Nessas interações pelo computador, onde muitas vezes são utilizados avatares
+ e 
 \begin_inset Quotes eld
 \end_inset
 
@@ -208,8 +210,8 @@ key "subrahmanyam2000ihc,subrahmanyam2001icu"
 \end_layout
 
 \begin_layout Standard
-A exposição à Internet como fonte de consulta frequentemente parece resultar
- em melhora no desempenho acadêmico das crianças.
+A exposição à Internet como fonte de consulta parece resultar em melhora
+ no desempenho acadêmico das crianças.
  Entretanto, não há pesquisas suficientes para comprovar solidamente o nexo
  causal entre esses dois fatores.
  Há necessidade de maiores pesquisas para determinar o efeito da utilização
@@ -281,7 +283,7 @@ online
 \end_inset
 
 .
- Entretanto, estes últimos são muito análogos ao fenômeno do 
+ Entretanto, estes últimos são muito semelhantes ao fenômeno do 
 \begin_inset Quotes eld
 \end_inset
 
@@ -303,8 +305,8 @@ key "ybarra2004oat,ybarra2004yeo"
 \end_layout
 
 \begin_layout Standard
-Pesquisas junto aos pais indicam que estes frequentemente compram os computadore
-s e pagam pela conexão à Internet como um recurso educacional extra.
+Pesquisas junto aos pais apontam que estes normalmente compram os computadores
+ e pagam pela conexão à Internet como um recurso educacional extra.
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -312,7 +314,7 @@ key "subrahmanyam2000ihc"
 
 \end_inset
 
- Também indicam que frequentemente eles desconhecem o conteúdo de jogos
+ Também demonstram que grande parte deles desconhece o conteúdo de jogos
  e a dinâmica de interações sociais 
 \begin_inset Quotes eld
 \end_inset
@@ -329,7 +331,7 @@ key "subrahmanyam2001icu"
 
 \end_inset
 
- Indicam ainda que, como muitas vezes as crianças têm mais conhecimento
+ Por fim, constatam que, como muitas vezes as crianças têm mais conhecimento
  que eles em relação ao uso do computador e da Internet, ocorre uma inversão
  dos papéis de ensino/aprendizagem, com consequentes problemas de identidade.
  
