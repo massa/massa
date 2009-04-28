@@ -1,4 +1,4 @@
-#LyX 1.6.1 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.2 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -6,7 +6,7 @@
 \use_default_options false
 \language brazilian
 \inputencoding utf8
-\font_roman default
+\font_roman times
 \font_sans default
 \font_typewriter default
 \font_default_family default
@@ -57,7 +57,7 @@ Exercício 01
 \begin_inset Newline newline
 \end_inset
 
-Trajeto de ônibus
+Cenário: Ônibus
 \end_layout
 
 \begin_layout Author
@@ -77,20 +77,70 @@ Humberto Massa Guimarães
 \end_layout
 
 \begin_layout Date
-31.03.2009
+27.04.2009
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Você está no IEC e quer ir ao shopping Pátio Savassi, de ônibus.
+ Você não sabe qual o ponto de ônibus mais próximo e nem qual ônibus deve
+ pegar.
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
 Objetivos
 \end_layout
 
-\begin_layout Enumerate
-usuários
+\begin_layout Standard
+Estre trabalho tem como objetivo identificar os elementos do sistema interativo
+ do cenário 
+\begin_inset Quotes eld
+\end_inset
+
+viagem de ônibus
+\begin_inset Quotes erd
+\end_inset
+
+.
+ O trabalho propõe que se faça uma descrição desses elementos, incluindo
+ uma descrição mais detalhada de uma ação considerada 
+\begin_inset Quotes eld
+\end_inset
+
+principal
+\begin_inset Quotes erd
+\end_inset
+
+ no contexto do sistema interativo.
+ Finalmente, devem ser identificadas as possíveis falhas de interação que
+ podem ocorrer nesse sistema, e ser sugeridas melhorias e soluções para
+ as falhas levantadas.
 \end_layout
 
-\begin_deeper
-\begin_layout Enumerate
-agrupados por 
+\begin_layout Part
+Levantamento Inicial / Suposições
+\end_layout
+
+\begin_layout Standard
+Antes de escolher uma metodologia, foram levantados, em sala de aula, os
+ seguintes elementos que possivelmente seriam componentes do sistema:
+\end_layout
+
+\begin_layout Section
+Usuários
+\end_layout
+
+\begin_layout Standard
+Os usuários do sistema de ônibus devem poder ser agrupados, em geral, por
+ dois eixos ortogonais: por 
 \begin_inset Quotes eld
 \end_inset
 
@@ -98,7 +148,7 @@ tipo social
 \begin_inset Quotes erd
 \end_inset
 
-: 
+, podemos agrupá-los em trabalhadores 
 \begin_inset Quotes eld
 \end_inset
 
@@ -106,7 +156,7 @@ blue collar
 \begin_inset Quotes erd
 \end_inset
 
-, estudantes, 
+, estudantes e trabalhadores 
 \begin_inset Quotes eld
 \end_inset
 
@@ -114,178 +164,195 @@ white collar
 \begin_inset Quotes erd
 \end_inset
 
-;
+; por conhecimento do percurso, podemos agrupálos em pessoas sem nenhum
+ conhecimento do sistema de ônibus de BH, com conhecimento do sistema mas
+ não do percurso específico, e pessoas com conhecimento do percurso.
 \end_layout
 
-\begin_layout Enumerate
-agrupados por conhecimento do percurso:
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-sem conhecimento do sistema de transporte público de BH;
-\end_layout
-
-\begin_layout Enumerate
-com conhecimento do sistema, sem conhecimento do percurso específico;
-\end_layout
-
-\begin_layout Enumerate
-com conhecimento do percurso.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Enumerate
-artefatos
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-mapas
-\end_layout
-
-\begin_layout Enumerate
-guias
-\end_layout
-
-\begin_layout Enumerate
-computador
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Google
-\end_layout
-
-\begin_layout Enumerate
-Google Maps
-\end_layout
-
-\begin_layout Enumerate
-Como Vou
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Enumerate
-ambiente
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-casa
-\end_layout
-
-\begin_layout Enumerate
-rua
-\end_layout
-
-\begin_layout Enumerate
-ponto inicial
-\end_layout
-
-\begin_layout Enumerate
-ônibus
-\end_layout
-
-\begin_layout Enumerate
-ponto final
-\end_layout
-
-\begin_layout Enumerate
-destino
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-ações
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-descobrir a linha do ônibus
-\end_layout
-
-\begin_layout Enumerate
-descobrir a localização do ponto
-\end_layout
-
-\begin_layout Enumerate
-entrar no ônibus
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-qual porta?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-pagar a passagem
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-em dinheiro contado
-\end_layout
-
-\begin_layout Enumerate
-em dinheiro com troco
-\end_layout
-
-\begin_layout Enumerate
-com cartão BHBus
-\end_layout
-
-\begin_layout Enumerate
-comprar cartão pré-pago BHBus
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-descobrir onde descer
-\end_layout
-
-\begin_layout Enumerate
-ocupar lugar / esperar
-\end_layout
-
-\begin_layout Enumerate
-descer
-\end_layout
-
-\end_deeper
-\begin_layout Part
-Técnicas
-\end_layout
-
-\begin_layout Itemize
-Etnografia
-\end_layout
-
-\begin_layout Itemize
-Mapeamento
-\end_layout
-
-\begin_layout Itemize
-Análise da Tarefa
-\end_layout
-
-\begin_layout Part
-Percurso realizado
-\end_layout
-
-\begin_layout Section*
-Humberto
+\begin_layout Section
+Artefatos
 \end_layout
 
 \begin_layout Standard
-Busquei no Google Maps como ir de minha casa até o Museu de Ciências Naturais
+Dentre os artefatos que levantamos que poderiam ser utilizados no cenário,
+ estão mapas e guias, inclusive aqueles do computador (Google, Google Maps,
+ ComoVou), os artefatos pertentences ao ambiente (em casa, na rua, os pontos
+ de ônibus com sua sinalização -- nome do ponto e linhas que por ali passam).
+\end_layout
+
+\begin_layout Section
+Ambiente
+\end_layout
+
+\begin_layout Standard
+O ambiente varia desde o local inicial (IEC) até o destino final (Pátio
+ Savassi), tendo localizações dentro do prédio do IEC, na rua, no ponto
+ inicial, dentro do ônibus, no ponto final e no destino.
+\end_layout
+
+\begin_layout Section
+Ações
+\end_layout
+
+\begin_layout Standard
+O percurso se desdobraria nas seguintes ações:
+\end_layout
+
+\begin_layout Enumerate
+descobrir a linha do ônibus;
+\end_layout
+
+\begin_layout Enumerate
+descobrir a localização do ponto;
+\end_layout
+
+\begin_layout Enumerate
+entrar no ônibus;
+\end_layout
+
+\begin_layout Enumerate
+pagar a passagem:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+em dinheiro contado,
+\end_layout
+
+\begin_layout Enumerate
+em dinheiro, com troco,
+\end_layout
+
+\begin_layout Enumerate
+com cartão BHBus, ou
+\end_layout
+
+\begin_layout Enumerate
+comprar cartão pré-pago BHBus;
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+descobrir onde descer;
+\end_layout
+
+\begin_layout Enumerate
+ocupar lugar / esperar;
+\end_layout
+
+\begin_layout Enumerate
+descer.
+\end_layout
+
+\begin_layout Part
+Técnicas utilizadas
+\end_layout
+
+\begin_layout Description
+Etnografia estratégia metodológica utilizada para prover descrições de interaçõe
+s humanas, sem a prescrição de nenhum método em particular mas sim da natureza
+ do estudo: descrever as pessoas através da escrita.
+\end_layout
+
+\begin_layout Description
+Análise
+\begin_inset space ~
+\end_inset
+
+da
+\begin_inset space ~
+\end_inset
+
+Tarefa processo de recolhimento do processo cognitivo do usuário durante
+ a execução de um trabalho, observando-se os passos necessários para que
+ a tarefa seja completada.
+\end_layout
+
+\begin_layout Description
+
+\emph on
+Benchmarking
+\emph default
+ um processo sistemático e contínuo de avaliação dos produtos, serviços
+ e processos de trabalho das organizações que são reconhecidas como representant
+es das melhores práticas com a finalidade de comparar desempenhos e identificar
+ oportunidades de melhoria na organização que está realizando (ou monitorando)
+ o processo.
+\begin_inset Newline newline
+\end_inset
+
+Considerou-se este um processo adequado para este trabalho, pois os resultados
+ proporcionam a comparação de produtos, serviços e métodos com os das organizaçõ
+es representantes das melhores práticas.
+ O processo é de descoberta e experiência de aprendizagem.
+ Exige a identificação dessas melhores práticas e a projeção do desempenho
+ futuro.
+ A idéia é que ninguém é melhor em tudo.
+ Então, “copiar” modelos de outras empresas significa “economizar” tempo
+ e trabalho.
+ Por definição, as “cópias” nunca serão iguais.
+ Haverá sempre ajustes, adaptação e aprimoramentos, o que garante a “evolução”
+ da idéia original.
+\end_layout
+
+\begin_layout Part
+Análise de uma ação
+\end_layout
+
+\begin_layout Standard
+Considerando-se a ação 4(b), pagar a passagem em dinheiro com troco, temos
+ os seguintes estágios dessa ação, segundo o modelo de Norman, apresentado
+ em sala de aula:
+\end_layout
+
+\begin_layout Description
+Meta pagar o ônibus, para passar a roleta
+\end_layout
+
+\begin_layout Description
+Intenção pagar com dinheiro, receber o troco
+\end_layout
+
+\begin_layout Description
+Sequência
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+ações dar o dinheiro ao cobrador, aguardar o troco, passar a roleta
+\end_layout
+
+\begin_layout Description
+Execução o dinheiro é dado ao cobrador
+\end_layout
+
+\begin_layout Description
+Percepção o cobrador retorna o troco
+\end_layout
+
+\begin_layout Description
+Interpretação confere-se o troco
+\end_layout
+
+\begin_layout Description
+Avaliação o troco está correto, a passagem está paga
+\end_layout
+
+\begin_layout Part
+Etnografia
+\end_layout
+
+\begin_layout Standard
+Para executar uma tarefa análoga à proposta, foram realizados pelos integrantes
+ do grupo itinerários de ônibus dos quais eles não tinham conhecimento prévio.
+ Isso gerou relatórios etnográficos que seguem a seguinte linha:
+\end_layout
+
+\begin_layout Standard
+“Busquei no Google Maps como ir de minha casa até o Museu de Ciências Naturais
  da PUC.
  Encontrei no link 
 \begin_inset CommandInset href
@@ -297,7 +364,16 @@ target "http://maps.google.com/maps?f=d&source=s_d&saddr=Av.+Luis+Paulo+Franco+-
 
 que deveria tomar o ônibus da linha 4110.
  Andamos (eu e meu filho) alguns metros até o ponto do ônibus.
- Entramos no ônibus, que não estava com os assentos cheios nem vazios.
+ Entramos no ônibus, que encontrava-se com aproximadamente uma dúzia de
+ passageiros, quase todos aparentando ser trabalhadores 
+\begin_inset Quotes eld
+\end_inset
+
+blue collar
+\begin_inset Quotes erd
+\end_inset
+
+.
  Fiz o pagamento de duas passagens a R$
 \begin_inset space ~
 \end_inset
@@ -309,11 +385,249 @@ que deveria tomar o ônibus da linha 4110.
 5,00 recebendo o troco em moedas.
  Encontramos uma dupla de assentos vazios adjacentes, sentamos e esperamos
  por aproximadamente 35 minutos.
+ Durante o trajeto, vários passageiros entraram e saíram; nenhum perguntou
+ sobre o itinerário ao cobrador.
  Ao avistarmos o museu, demos o sinal, o ônibus parou e descemos.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esses relatórios foram, então, comparados e utilizados para compreendermos
+ melhor o sistema interativo em questão.
+ Alguns gráficos foram gerados, como os seguintes fluxogramas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename Flash.pdf
+	height 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\emph on
+Benchmarking
+\end_layout
+
+\begin_layout Standard
+Foram apresentadas as seguintes 
+\begin_inset Quotes eld
+\end_inset
+
+melhores práticas
+\begin_inset Quotes erd
+\end_inset
+
+ em termos de transporte público, após discussões:
+\end_layout
+
+\begin_layout Enumerate
+em Curitiba, os pontos são fechados e os tíquetes para viagens nos ônibus
+ são vendidos ali, sendo que os passageiros somente embarcam com a passagem
+ já paga;
+\end_layout
+
+\begin_layout Enumerate
+no metrô de diversas cidades, no Brasil e no exterior, é indicado claramente
+ dentro do trem o trajeto que está sendo feito, quais as paradas e, inclusive,
+ é anunciada a próxima parada através de 
+\begin_inset Quotes eld
+\end_inset
+
+display
+\begin_inset Quotes erd
+\end_inset
+
+ luminoso e sistema de som;
+\end_layout
+
+\begin_layout Enumerate
+ainda, no metrô de diversas cidades como Madri e Nova Iorque, em cada estação
+ encontram-se mapas que indicam para o usuário onde ele encontra-se na cidade,
+ quais os itinerários dos trens que por ali passam e quais os trens que
+ passam nas estações vizinhas;
+\end_layout
+
+\begin_layout Enumerate
+várias cidades fazem uso das pistas exclusivas para ônibus em corredores
+ de grande movimento;
+\end_layout
+
+\begin_layout Enumerate
+várias cidades fazem uso de ônibus biarticulados.
+\end_layout
+
+\begin_layout Standard
+As imagens das figuras foram recolhidas no processo de escolha dessas 
+\begin_inset Quotes eld
+\end_inset
+
+melhores práticas
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pontos de ônibus novos em Tóquio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /tmp/bus-stop-tokyo.jpg
+	width 15cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename /tmp/bus-stop-tokyo2.jpg
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ponto de ônibus em Belo Horizonte
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /tmp/bus-stop-bh.jpg
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Máquina automática de venda de passagens, Estocolmo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /tmp/vending-machine-stockholm.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
 Falhas e soluções apresentadas
+\end_layout
+
+\begin_layout Standard
+Durante as discussões do grupo, foram detectadas os seguintes pontos falhos
+ e apresentadas, através do processo de 
+\emph on
+benchmarking
+\emph default
+, as seguintes propostas para solucioná-los:
+\end_layout
+
+\begin_layout Description
+Ponto
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+ônibus no ponto, além da informação de quais linhas de ônibus passam por
+ ele, deveria estar informado em que sentido (de/para que bairros) os ônibus
+ estão se movimentando.
+ Além disso, assim como em outras cidades, o ponto poderia ter mapas com
+ indicações de onde aquele ponto está situado, e com a marcação dos itinerários
+ dos ônibus que nele param.
+ Outro item interessante seria marcar nesse mapa quais linhas de ônibus
+ passam nos pontos adjacentes (inclusive no que fica do outro lado da rua).
 \end_layout
 
 \begin_layout Description
@@ -330,17 +644,40 @@ vending machines
 \end_inset
 
 ).
+ Isso aumentaria a área útil dos ônibus.
 \end_layout
 
 \begin_layout Description
-Ônibus o ônibus muitas vezes encontra-se cheio e ...; uma solução seria aumentar
- o número de assentos retráteis, mantendo-os automaticamente retraídos ou
- travados durante os períodos de pico, com possibilidade de destravamento
- pelo motorista ou cobrador.
+Ônibus o ônibus muitas vezes encontra-se cheio e as pessoas andam com um
+ certo desconforto; uma solução seria aumentar o número de assentos retráteis,
+ mantendo-os automaticamente retraídos ou travados durante os períodos de
+ pico, com possibilidade de destravamento pelo motorista ou cobrador.
+ Outra solução seria a adoção de um maior número de ônibus biarticulados
+ que possuem maior capacidade de transporte de usuários.
 \end_layout
 
 \begin_layout Description
+Informação
+\begin_inset space ~
+\end_inset
 
+no
+\begin_inset space ~
+\end_inset
+
+ônibus é difícil, para pessoas não familiarizadas com a cidade, entender
+ onde o ônibus se encontra e localizar-se com relação ao destino.
+ Uma solução seria indicar claramente no interior do ônibus quais são as
+ paradas que ele faz e também, adotar-se sistema de 
+\begin_inset Quotes eld
+\end_inset
+
+display
+\begin_inset Quotes erd
+\end_inset
+
+, possivelmente com áudio integrado, que indicasse ao passageiro qual é
+ a próxima parada.
 \end_layout
 
 \end_body
