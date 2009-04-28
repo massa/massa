@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+                 xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+                 xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+                 xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+                 xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+                 xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+                 xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+                 xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+                 xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+                 xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+                 xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+                 xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+                 xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+                 xmlns:ooo="http://openoffice.org/2004/office"
+                 xmlns:ooow="http://openoffice.org/2004/writer"
+                 xmlns:oooc="http://openoffice.org/2004/calc"
+                 xmlns:dom="http://www.w3.org/2001/xml-events"
+                 xmlns:xforms="http://www.w3.org/2002/xforms"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:rpt="http://openoffice.org/2005/report"
+                 xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+                 xmlns:rdfa="http://docs.oasis-open.org/opendocument/meta/rdfa#"
+                 xmlns:field="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:field:1.0"
+                 xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+                 office:version="1.2"
+                 office:mimetype="application/vnd.oasis.opendocument.text">
+   <office:meta> 
+      <meta:initial-creator>TeX4ht from Internet.tex, options: xhtml,ooffice,html,refcaption 
+(http://www.cse.ohio-state.edu/~gurari/TeX4ht/)  
+</meta:initial-creator> 
+      <meta:generator>BrOffice.org/3.0$Unix OpenOffice.org_project/300m15$Build-9379</meta:generator> 
+      <meta:creation-date>2009-04-12 16:48:00</meta:creation-date> 
+      <dc:date>2009-04-12T18:09:14</dc:date> 
+      <meta:editing-duration>PT00H42M35S</meta:editing-duration>
+      <meta:editing-cycles>6</meta:editing-cycles>
+      
+      
+      
+      
+      
+      <meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0"
+                               meta:page-count="3"
+                               meta:paragraph-count="20"
+                               meta:word-count="1109"
+                               meta:character-count="7317"/>
+      <meta:user-defined meta:name="Informações 1"/>
+      <meta:user-defined meta:name="Informações 2"/>
+      <meta:user-defined meta:name="Informações 3"/>
+      <meta:user-defined meta:name="Informações 4"/>
+   </office:meta>
+   <office:settings>
+      <config:config-item-set config:name="ooo:view-settings">
+         <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+         <config:config-item config:name="ViewAreaLeft" config:type="long">2805</config:config-item>
+         <config:config-item config:name="ViewAreaWidth" config:type="long">17332</config:config-item>
+         <config:config-item config:name="ViewAreaHeight" config:type="long">8662</config:config-item>
+         <config:config-item config:name="ShowRedlineChanges" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+         <config:config-item-map-indexed config:name="Views">
+            <config:config-item-map-entry>
+               <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+               <config:config-item config:name="ViewLeft" config:type="long">16348</config:config-item>
+               <config:config-item config:name="ViewTop" config:type="long">66770</config:config-item>
+               <config:config-item config:name="VisibleLeft" config:type="long">2805</config:config-item>
+               <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
+               <config:config-item config:name="VisibleRight" config:type="long">20135</config:config-item>
+               <config:config-item config:name="VisibleBottom" config:type="long">8661</config:config-item>
+               <config:config-item config:name="ZoomType" config:type="short">1</config:config-item>
+               <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
+               <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+               <config:config-item config:name="ZoomFactor" config:type="short">249</config:config-item>
+               <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+            </config:config-item-map-entry>
+         </config:config-item-map-indexed>
+      </config:config-item-set>
+      <config:config-item-set config:name="ooo:configuration-settings">
+         <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+         <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+         <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+         <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+         <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+         <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+         <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintFaxName" config:type="string"/>
+         <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrinterName" config:type="string"/>
+         <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+         <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+         <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+         <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+         <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+         <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+      </config:config-item-set>
+   </office:settings>
+   <office:scripts>
+      <office:script script:language="ooo:Basic">
+         <ooo:libraries>
+            <ooo:library-embedded ooo:name="Standard"/>
+         </ooo:libraries>
+      </office:script>
+   </office:scripts>
+   <office:font-face-decls>
+      <style:font-face style:name="monospace" svg:font-family="monospace"/>
+      <style:font-face style:name="Times New Roman" svg:font-family="'Times New Roman'"
+                       style:font-family-generic="roman"
+                       style:font-pitch="variable"/>
+      <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss"
+                       style:font-pitch="variable"/>
+      <style:font-face style:name="DejaVu Sans" svg:font-family="'DejaVu Sans'"
+                       style:font-family-generic="system"
+                       style:font-pitch="variable"/>
+   </office:font-face-decls>
+   <office:styles>
+      <style:default-style style:family="graphic">
+         <style:graphic-properties draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm"
+                                   draw:start-line-spacing-horizontal="0.283cm"
+                                   draw:start-line-spacing-vertical="0.283cm"
+                                   draw:end-line-spacing-horizontal="0.283cm"
+                                   draw:end-line-spacing-vertical="0.283cm"
+                                   style:flow-with-text="true"/>
+         <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict"
+                                     style:writing-mode="lr-tb"
+                                     style:font-independent-line-spacing="false">
+            <style:tab-stops/>
+         </style:paragraph-properties>
+         <style:text-properties fo:color="#000000" fo:font-size="12pt" fo:language="pt" fo:country="BR"
+                                style:letter-kerning="true"
+                                style:font-size-asian="12pt"
+                                style:language-asian="en"
+                                style:country-asian="US"
+                                style:font-size-complex="12pt"
+                                style:language-complex="en"
+                                style:country-complex="US"/>
+      </style:default-style>
+      <style:default-style style:family="paragraph">
+         <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha"
+                                     style:punctuation-wrap="hanging"
+                                     style:line-break="strict"
+                                     style:tab-stop-distance="1.251cm"
+                                     style:writing-mode="page"/>
+         <style:text-properties fo:color="#000000" style:font-name="Times New Roman" fo:font-size="12pt"
+                                fo:language="pt"
+                                fo:country="BR"
+                                style:letter-kerning="true"
+                                style:font-name-asian="DejaVu Sans"
+                                style:font-size-asian="12pt"
+                                style:language-asian="en"
+                                style:country-asian="US"
+                                style:font-name-complex="DejaVu Sans"
+                                style:font-size-complex="12pt"
+                                style:language-complex="en"
+                                style:country-complex="US"
+                                fo:hyphenate="false"
+                                fo:hyphenation-remain-char-count="2"
+                                fo:hyphenation-push-char-count="2"/>
+      </style:default-style>
+      <style:default-style style:family="table">
+         <style:table-properties table:border-model="separating"/>
+      </style:default-style>
+      <style:default-style style:family="table-row">
+         <style:table-row-properties fo:keep-together="auto"/>
+      </style:default-style>
+      <style:style style:name="Standard" style:family="paragraph" style:class="text"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:keep-together="always" style:page-number="auto" fo:keep-with-next="always"/>
+      </style:style>
+      <style:style style:name="Heading" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:next-style-name="Text_20_body"
+                   style:class="text"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" style:page-number="auto"
+                                     fo:break-before="page"
+                                     fo:keep-with-next="always"/>
+         <style:text-properties style:font-name="Arial" fo:font-size="14pt" style:font-name-asian="DejaVu Sans"
+                                style:font-size-asian="14pt"
+                                style:font-name-complex="DejaVu Sans"
+                                style:font-size-complex="14pt"/>
+      </style:style>
+      <style:style style:name="Text_20_body" style:display-name="Text body"
+                   style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.212cm"/>
+      </style:style>
+      <style:style style:name="List" style:family="paragraph"
+                   style:parent-style-name="Text_20_body"
+                   style:class="list">
+         <style:text-properties style:font-size-asian="12pt"/>
+      </style:style>
+      <style:style style:name="Caption" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:class="extra">
+         <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" text:number-lines="false"
+                                     text:line-number="0"/>
+         <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt"
+                                style:font-style-asian="italic"
+                                style:font-size-complex="12pt"
+                                style:font-style-complex="italic"/>
+      </style:style>
+      <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard"
+                   style:class="index">
+         <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+      </style:style>
+      <style:style style:name="bigskip" style:family="paragraph"
+                   style:parent-style-name="Text-body">
+         <style:paragraph-properties fo:margin-top="0.199cm" fo:margin-bottom="0cm"/>
+      </style:style>
+      <style:style style:name="clearpage" style:family="paragraph"
+                   style:parent-style-name="Text-body">
+         <style:paragraph-properties fo:break-before="page"/>
+      </style:style>
+      <style:style style:name="hline-p-hr" style:family="paragraph">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="0.011cm"
+                                     fo:padding="0cm"
+                                     fo:border-left="none"
+                                     fo:border-right="none"
+                                     fo:border-top="none"
+                                     fo:border-bottom="0.011cm solid #000000"/>
+      </style:style>
+      <style:style style:name="cline-p-hr" style:family="paragraph">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="0.011cm"
+                                     fo:padding="0cm"
+                                     fo:border-left="none"
+                                     fo:border-right="none"
+                                     fo:border-top="none"
+                                     fo:border-bottom="0.011cm solid #000000"/>
+      </style:style>
+      <style:style style:name="cline-p" style:family="paragraph">
+         <style:paragraph-properties fo:line-height="0.002cm" fo:padding="0cm" fo:border="none"/>
+      </style:style>
+      <style:style style:name="newpage" style:family="paragraph">
+         <style:paragraph-properties fo:break-after="page"/>
+      </style:style>
+      <style:style style:name="equ-p" style:family="paragraph" style:parent-style-name="Standard">
+         <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+      </style:style>
+      <style:style style:name="equ-num-p" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+      </style:style>
+      <style:style style:name="First-line-indent" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0.499cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="First-line-indent-rtl" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0.499cm"
+                                     style:auto-text-indent="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Text-body" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:next-style-name="First-line-indent"
+                   style:class="text"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="120%"
+                                     fo:text-align="justify"
+                                     style:justify-single-word="false"
+                                     fo:hyphenation-ladder-count="no-limit"
+                                     style:page-number="auto"/>
+         <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="0"
+                                fo:hyphenation-push-char-count="0"/>
+      </style:style>
+      <style:style style:name="Like-Text-body" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:next-style-name="First-line-indent"
+                   style:class="text"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="120%"
+                                     fo:text-align="justify"
+                                     style:justify-single-word="false"
+                                     fo:hyphenation-ladder-count="no-limit"
+                                     style:page-number="auto"/>
+         <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="0"
+                                fo:hyphenation-push-char-count="0"/>
+      </style:style>
+      <style:style style:name="Text-body-rtl" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:next-style-name="First-line-indent"
+                   style:class="text"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="120%"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:hyphenation-ladder-count="no-limit"
+                                     style:page-number="auto"
+                                     style:writing-mode="rl-tb"/>
+         <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="0"
+                                fo:hyphenation-push-char-count="0"/>
+      </style:style>
+      <style:style style:name="Like-Text-body-rtl" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:next-style-name="First-line-indent"
+                   style:class="text"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="120%"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:hyphenation-ladder-count="no-limit"
+                                     style:page-number="auto"
+                                     style:writing-mode="rl-tb"/>
+         <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="0"
+                                fo:hyphenation-push-char-count="0"/>
+      </style:style>
+      <style:style style:name="p-nopar" style:family="paragraph"
+                   style:parent-style-name="Text-body">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.3cm"
+                                     fo:margin-bottom="0.3cm"
+                                     fo:text-align="justify"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="p-nopar-rtl" style:family="paragraph"
+                   style:parent-style-name="Text-body">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.3cm"
+                                     fo:margin-bottom="0.3cm"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="display-math" style:family="paragraph"
+                   style:parent-style-name="Text-body">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="Inside-itemize" style:family="paragraph"
+                   style:parent-style-name="Standard"
+                   style:list-style-name="Itemize">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.381cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="Inside-enumerate" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:list-style-name="Enumerate">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.381cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="Inside-enumerate-rtl" style:family="paragraph"
+                   style:list-style-name="Enumerate-rtl">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="dd" style:family="paragraph" style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0.889cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="dt" style:family="paragraph">
+         <style:paragraph-properties fo:margin-left="0.254cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+         <style:text-properties fo:font-weight="bold"/>
+      </style:style>
+      <style:style style:name="printshorthands-dd" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0.889cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="printshorthands-dt" style:family="paragraph">
+         <style:paragraph-properties fo:margin-left="0.254cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="printthebibliography-dd" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0.889cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="-0.889cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="printthebibliography-dt" style:family="paragraph">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="algorithmic-dd" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0.889cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="algorithmic-dt" style:family="paragraph">
+         <style:paragraph-properties fo:margin-left="0.254cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="quote" style:family="paragraph" style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0.199cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="quote-trl" style:family="paragraph">
+         <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0.199cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="begin-env-p" style:family="paragraph">
+         <style:paragraph-properties fo:margin-top="0.199cm" fo:margin-bottom="0cm" fo:line-height="0.011cm"/>
+      </style:style>
+      <style:style style:name="end-env-p" style:family="paragraph">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" fo:line-height="0.011cm"/>
+      </style:style>
+      <style:style style:name="Contents-Heading" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.499cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     text:number-lines="false"
+                                     text:line-number="0"/>
+      </style:style>
+      <style:style style:name="Index-Heading" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     text:number-lines="false"
+                                     text:line-number="0"/>
+      </style:style>
+      <style:style style:name="verse" style:family="paragraph" style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-left="1.499cm" fo:margin-right="1cm" fo:margin-top="0.199cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="-0.499cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops/>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="Preformatted-Text" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.199cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+         <style:text-properties style:font-name="monospace"/>
+      </style:style>
+      <style:style style:name="Preformatted-Text-rtl" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.199cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     style:writing-mode="rl-tb"/>
+         <style:text-properties style:font-name="monospace"/>
+      </style:style>
+      <style:style style:name="Title" style:family="paragraph" style:parent-style-name="Heading"
+                   style:next-style-name="author"
+                   style:class="chapter">
+         <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.51cm" fo:text-align="center"
+                                     style:justify-single-word="false"/>
+      </style:style>
+      <style:style style:name="Subtitle" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text_20_body"
+                   style:class="chapter">
+         <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+         <style:text-properties fo:font-size="14pt" fo:font-style="italic" style:font-size-asian="14pt"
+                                style:font-style-asian="italic"
+                                style:font-size-complex="14pt"
+                                style:font-style-complex="italic"/>
+      </style:style>
+      <style:style style:name="Title-rtl" style:family="paragraph"
+                   style:next-style-name="author-rtl"
+                   style:class="chapter">
+         <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.51cm" fo:text-align="center"
+                                     style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="author" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:next-style-name="date">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" fo:text-align="center"
+                                     style:justify-single-word="false"/>
+      </style:style>
+      <style:style style:name="author-rtl" style:family="paragraph"
+                   style:parent-style-name="Text-body-rtl"
+                   style:next-style-name="date-rtl">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" fo:text-align="center"
+                                     style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="date" style:family="paragraph" style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="2.2cm" fo:text-align="center"
+                                     style:justify-single-word="false"
+                                     style:page-number="auto"/>
+      </style:style>
+      <style:style style:name="date-rtl" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.199cm" fo:text-align="center"
+                                     style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="abstract" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-left="3cm" fo:margin-right="3cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="abstract-rtl" style:family="paragraph"
+                   style:parent-style-name="Text-body-rtl"
+                   style:next-style-name="Text-body-rtl">
+         <style:paragraph-properties fo:margin-left="3cm" fo:margin-right="3cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.199cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="abstract-title" style:family="paragraph"
+                   style:parent-style-name="abstract"
+                   style:next-style-name="abstract">
+         <style:paragraph-properties fo:margin-top="0.499cm" fo:margin-bottom="0cm" fo:text-align="center"
+                                     style:justify-single-word="false"/>
+      </style:style>
+      <style:style style:name="Contents-1" style:family="paragraph"
+                   style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0.101cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops>
+               <style:tab-stop style:position="16.999cm" style:type="right"/>
+            </style:tab-stops>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="Contents-2" style:family="paragraph"
+                   style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0.499cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops>
+               <style:tab-stop style:position="16.499cm" style:type="right"/>
+            </style:tab-stops>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="Contents-3" style:family="paragraph"
+                   style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0.998cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops>
+               <style:tab-stop style:position="16cm" style:type="right"/>
+            </style:tab-stops>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="Contents-4" style:family="paragraph"
+                   style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="1.498cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops>
+               <style:tab-stop style:position="15.501cm" style:type="right"/>
+            </style:tab-stops>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="Contents-5" style:family="paragraph"
+                   style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="1.997cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops>
+               <style:tab-stop style:position="15.002cm" style:type="right"/>
+            </style:tab-stops>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="Index-1" style:family="paragraph" style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="Index-2" style:family="paragraph" style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0.499cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="Index-3" style:family="paragraph" style:parent-style-name="Index"
+                   style:class="index">
+         <style:paragraph-properties fo:margin-left="0.998cm" fo:margin-right="0cm" fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="p-bibitem" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="0cm" fo:text-indent="-1cm"
+                                     style:auto-text-indent="false">
+            <style:tab-stops/>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="quotation" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0cm"
+                                     fo:text-indent="0.499cm"
+                                     style:auto-text-indent="true"/>
+      </style:style>
+      <style:style style:name="quotation-rtl" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="1cm" fo:margin-top="0cm"
+                                     fo:margin-bottom="0cm"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0.499cm"
+                                     style:auto-text-indent="true"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="flushright" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body"
+                   style:master-page-name="">
+         <style:paragraph-properties fo:margin-top="0.199cm" fo:margin-bottom="0.199cm" fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     style:page-number="auto"/>
+      </style:style>
+      <style:style style:name="flushleft" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-top="0.199cm" fo:margin-bottom="0.199cm" fo:text-align="start"
+                                     style:justify-single-word="false"/>
+      </style:style>
+      <style:style style:name="center" style:family="paragraph"
+                   style:parent-style-name="Text-body"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-top="0.199cm" fo:margin-bottom="0.199cm" fo:text-align="center"
+                                     style:justify-single-word="false">
+            <style:tab-stops/>
+         </style:paragraph-properties>
+      </style:style>
+      <style:style style:name="tabbing" style:family="paragraph"
+                   style:parent-style-name="Standard">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0.499cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="part" style:family="paragraph" style:parent-style-name="Heading"
+                   style:next-style-name="Text-body">
+         <style:paragraph-properties fo:margin-top="0.52cm" fo:margin-bottom="0.21cm"/>
+      </style:style>
+      <style:style style:name="Heading-1" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-top="1.411cm" fo:margin-bottom="0.882cm"/>
+      </style:style>
+      <style:style style:name="Heading-1-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-2" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"
+                   style:default-outline-level="2">
+         <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.318cm"/>
+      </style:style>
+      <style:style style:name="Heading-2-rtl" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0cm" fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-3" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"/>
+      <style:style style:name="Heading-3-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-4" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0cm"/>
+      </style:style>
+      <style:style style:name="Heading-4-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0cm" fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-5" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.42cm"
+                                     fo:margin-bottom="0cm"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"/>
+      </style:style>
+      <style:style style:name="Heading-5-rtl" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.42cm"
+                                     fo:margin-bottom="0cm"
+                                     fo:text-align="end"
+                                     style:justify-single-word="false"
+                                     fo:text-indent="0cm"
+                                     style:auto-text-indent="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-6" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"/>
+      <style:style style:name="Heading-6-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-7" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"/>
+      <style:style style:name="Heading-7-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-8" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"/>
+      <style:style style:name="Heading-8-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-9" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"/>
+      <style:style style:name="Heading-9-rtl" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text">
+         <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"
+                                     style:writing-mode="rl-tb"/>
+      </style:style>
+      <style:style style:name="Heading-10" style:family="paragraph"
+                   style:parent-style-name="Heading"
+                   style:next-style-name="Text-body"
+                   style:class="text"/>
+      <style:style style:name="Heading-10-rtl" style:family="paragraph"
+                   style:next-style-name="Text-body-rtl"
+                   style:class="text"/>
+      <style:style style:name="reference-ref" style:family="text">
+         <style:text-properties style:text-underline-style="solid" style:text-underline-width="bold"
+                                style:text-underline-color="#0000ff"/>
+      </style:style>
+      <style:style style:name="textsuperscript" style:family="text">
+         <style:text-properties style:text-position="super 80%"/>
+      </style:style>
+      <style:style style:name="TEX" style:family="text">
+         <style:text-properties style:text-position="-25% 100%"/>
+      </style:style>
+      <style:style style:name="LATEX" style:family="text">
+         <style:text-properties style:text-position="15% 70%"/>
+      </style:style>
+      <style:style style:name="caption-title" style:family="text">
+         <style:text-properties fo:font-style="normal" fo:font-weight="bold"/>
+      </style:style>
+      <style:style style:name="verb" style:family="text">
+         <style:text-properties style:font-name="monospace"/>
+      </style:style>
+      <style:style style:name="obeylines-h" style:family="text"/>
+      <style:style style:name="obeylines-v" style:family="text"/>
+      <style:style style:name="Emphasis" style:family="text">
+         <style:text-properties fo:font-style="italic"/>
+      </style:style>
+      <style:style style:name="textit" style:family="text">
+         <style:text-properties fo:font-style="italic"/>
+      </style:style>
+      <style:style style:name="textbf" style:family="text">
+         <style:text-properties fo:font-style="normal" fo:font-weight="bold"/>
+      </style:style>
+      <style:style style:name="textsc" style:family="text">
+         <style:text-properties fo:font-variant="small-caps" style:text-position="0% 100%" fo:font-size="75%"
+                                fo:font-style="normal"
+                                fo:font-weight="normal"/>
+      </style:style>
+      <style:style style:name="texttt" style:family="text">
+         <style:text-properties style:font-name="monospace"/>
+      </style:style>
+      <style:style style:name="textrm" style:family="text">
+         <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal"
+                                style:font-weight-complex="normal"/>
+      </style:style>
+      <style:style style:name="textsf" style:family="text">
+         <style:text-properties fo:font-style="normal" fo:font-weight="bold"/>
+      </style:style>
+      <style:style style:name="textup" style:family="text">
+         <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal"
+                                style:font-weight-complex="normal"/>
+      </style:style>
+      <style:style style:name="overline" style:family="text"/>
+      <style:style style:name="underline" style:family="text">
+         <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto"
+                                style:text-underline-color="font-color"/>
+      </style:style>
+      <style:style style:name="Bullet-Symbols" style:family="text"/>
+      <style:style style:name="Numbering-Symbols" style:family="text"/>
+      <style:style style:name="Source-Text" style:family="text"/>
+      <style:style style:name="mml-inline" style:family="graphic"
+                   style:parent-style-name="Formula">
+         <style:graphic-properties svg:y="0cm" style:vertical-pos="middle" style:vertical-rel="text"/>
+      </style:style>
+      <style:style style:name="mml-display" style:family="graphic"
+                   style:parent-style-name="Formula">
+         <style:graphic-properties svg:x="0cm" style:wrap="none" style:horizontal-pos="center"
+                                   style:horizontal-rel="paragraph-content"
+                                   fo:background-color="transparent"
+                                   style:background-transparency="100%">
+            <style:background-image/>
+         </style:graphic-properties>
+      </style:style>
+      <style:style style:name="Formula" style:family="graphic">
+         <style:graphic-properties text:anchor-type="as-char" svg:y="0cm" fo:margin-left="0.011cm"
+                                   fo:margin-right="0.011cm"
+                                   style:vertical-pos="middle"
+                                   style:vertical-rel="text"/>
+      </style:style>
+      <style:style style:name="env-frame" style:family="graphic">
+         <style:graphic-properties svg:x="0cm" svg:y="0cm" style:vertical-pos="top"
+                                   style:vertical-rel="page-content"
+                                   style:horizontal-pos="from-left"
+                                   style:horizontal-rel="paragraph-content"
+                                   fo:padding="0cm"
+                                   fo:border="none"
+                                   style:shadow="none"/>
+      </style:style>
+      <text:outline-style style:name="Outline">
+         <text:outline-level-style text:level="1" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.762cm"
+                                                 fo:text-indent="-0.762cm"
+                                                 fo:margin-left="0.762cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="2" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.016cm"
+                                                 fo:text-indent="-1.016cm"
+                                                 fo:margin-left="1.016cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="3" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm"
+                                                 fo:text-indent="-1.27cm"
+                                                 fo:margin-left="1.27cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="4" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.524cm"
+                                                 fo:text-indent="-1.524cm"
+                                                 fo:margin-left="1.524cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="5" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.778cm"
+                                                 fo:text-indent="-1.778cm"
+                                                 fo:margin-left="1.778cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="6" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.032cm"
+                                                 fo:text-indent="-2.032cm"
+                                                 fo:margin-left="2.032cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="7" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.286cm"
+                                                 fo:text-indent="-2.286cm"
+                                                 fo:margin-left="2.286cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="8" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm"
+                                                 fo:text-indent="-2.54cm"
+                                                 fo:margin-left="2.54cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="9" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.794cm"
+                                                 fo:text-indent="-2.794cm"
+                                                 fo:margin-left="2.794cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+         <text:outline-level-style text:level="10" style:num-format="">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.048cm"
+                                                 fo:text-indent="-3.048cm"
+                                                 fo:margin-left="3.048cm"/>
+            </style:list-level-properties>
+         </text:outline-level-style>
+      </text:outline-style>
+      <text:list-style style:name="Itemize">
+         <text:list-level-style-bullet text:level="1" text:style-name="Bullet-Symbols" text:bullet-char="•">
+            <style:list-level-properties text:space-before="0.381cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="2" text:style-name="Bullet-Symbols" text:bullet-char="-">
+            <style:list-level-properties text:space-before="0.889cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="3" text:style-name="Bullet-Symbols" text:bullet-char="⁎">
+            <style:list-level-properties text:space-before="1.397cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="4" text:style-name="Bullet-Symbols" text:bullet-char="·">
+            <style:list-level-properties text:space-before="1.905cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="Enumerate">
+         <text:list-level-style-number text:level="1" text:style-name="Numbering-Symbols" style:num-suffix="."
+                                       style:num-format="1">
+            <style:list-level-properties text:space-before="0.381cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="2" text:style-name="Numbering-Symbols" style:num-prefix="("
+                                       style:num-suffix=")"
+                                       style:num-format="a">
+            <style:list-level-properties text:space-before="0.889cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="3" text:style-name="Numbering-Symbols" style:num-suffix="."
+                                       style:num-format="i">
+            <style:list-level-properties text:space-before="1.524cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="4" text:style-name="Numbering-Symbols" style:num-suffix="."
+                                       style:num-format="A">
+            <style:list-level-properties text:space-before="2.032cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="Enumerate-rtl">
+         <text:list-level-style-number text:level="1" text:style-name="Numbering-Symbols" style:num-suffix="."
+                                       style:num-format="1">
+            <style:list-level-properties text:space-before="0.381cm" text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="2" text:style-name="Numbering-Symbols" style:num-prefix="("
+                                       style:num-suffix=")"
+                                       style:num-format="1">
+            <style:list-level-properties text:space-before="0.889cm" text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="3" text:style-name="Numbering-Symbols" style:num-suffix="."
+                                       style:num-format="1">
+            <style:list-level-properties text:space-before="1.524cm" text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="4" text:style-name="Numbering-Symbols" style:num-suffix="."
+                                       style:num-format="1">
+            <style:list-level-properties text:space-before="2.032cm" text:min-label-distance="0.127cm"/>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="description">
+         <text:list-level-style-bullet text:level="1" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="2" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="0.508cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="3" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="1.016cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="4" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="1.524cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="list">
+         <text:list-level-style-bullet text:level="1" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="2" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="0.508cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="3" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="1.016cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="4" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="1.524cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="printshorthands">
+         <text:list-level-style-bullet text:level="1" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="1.905cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="2.54cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.175cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="printthebibliography">
+         <text:list-level-style-bullet text:level="1" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="1.905cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="2.54cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.175cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:list-style style:name="algorithmic">
+         <text:list-level-style-bullet text:level="1" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="2" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="0.508cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="3" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="1.016cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-bullet text:level="4" text:style-name="Source-Text" text:bullet-char=" ">
+            <style:list-level-properties text:space-before="1.524cm" text:min-label-width="0.508cm"
+                                         text:min-label-distance="0.127cm"/>
+         </text:list-level-style-bullet>
+         <text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="3.81cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="4.445cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.08cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="5.715cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.35cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+         <text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1">
+            <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+               <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm"
+                                                 fo:text-indent="-0.635cm"
+                                                 fo:margin-left="6.985cm"/>
+            </style:list-level-properties>
+         </text:list-level-style-number>
+      </text:list-style>
+      <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0"
+                                text:footnotes-position="page"
+                                text:start-numbering-at="document"/>
+      <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+      <text:bibliography-configuration text:prefix="[" text:suffix="]" fo:language="pt" fo:country="BR"/>
+      <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1"
+                                        text:number-position="left"
+                                        text:increment="5"/>
+   </office:styles>
+   <office:automatic-styles>
+      <style:style style:name="T1" style:family="text">
+         <style:text-properties style:text-underline-style="none"/>
+      </style:style>
+      <style:style style:name="T2" style:family="text">
+         <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto"
+                                style:text-underline-color="font-color"/>
+      </style:style>
+      <style:style style:name="T3" style:family="text">
+         <style:text-properties style:text-underline-style="none"/>
+      </style:style>
+      <style:style style:name="T4" style:family="text"/>
+      <style:style style:name="Sect1" style:family="section">
+         <style:section-properties style:editable="false">
+            <style:columns fo:column-count="1" fo:column-gap="0cm"/>
+         </style:section-properties>
+      </style:style>
+      <style:page-layout style:name="pm1">
+         <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1"
+                                       style:print-orientation="portrait"
+                                       fo:margin-top="2.499cm"
+                                       fo:margin-bottom="2cm"
+                                       fo:margin-left="2.499cm"
+                                       fo:margin-right="2.499cm"
+                                       style:writing-mode="lr-tb"
+                                       style:footnote-max-height="0cm">
+            <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm"
+                                style:distance-after-sep="0.101cm"
+                                style:adjustment="left"
+                                style:rel-width="25%"
+                                style:color="#000000"/>
+         </style:page-layout-properties>
+         <style:header-style/>
+         <style:footer-style/>
+      </style:page-layout>
+   </office:automatic-styles>
+   <office:master-styles>
+      <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+   </office:master-styles>
+   <office:body>
+      <office:text text:use-soft-page-breaks="true">
+         <text:sequence-decls>
+            <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+            <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+            <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+            <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+         </text:sequence-decls>
+         <text:p text:style-name="Title">A Internet tem comprometido o desenvolvimento das crianças?</text:p>
+         <text:p text:style-name="author">Humberto Massa Guimarães</text:p>
+         <text:p text:style-name="date">12.04.2009</text:p>
+         <text:p text:style-name="First-line-indent">Atualmente, é grande a preocupação relativa à influência da Internet no desenvolvimento de crianças e adolescentes. Isso se deve ao fato de que, principalmente em países desenvolvidos, grande parte das crianças têm acesso a computadores domésticos, muitas vezes conectados à rede. </text:p>
+         <text:p text:style-name="First-line-indent">O primeiro fator considerado a respeito do assunto é o tempo de uso do computador pelas crianças. Considera-se que o uso do computador em geral toma tempo que seria utilizado vendo televisão e não em outras atividades; entretanto as pesquisas que indicam essa informação nem sempre são confirmadas. De todo modo, as crianças costumam aumentar o tempo de exposição a uma tela (“screen time”) quando o computador faz parte das atividades diárias. Esse tempo de exposição, quando prolongado, costuma implicar em um risco mais acentuado de obesidade e de outros riscos físicos associados ao uso do computador, como lesões de esforço repetitivo e problemas ortopédicos em geral. O uso do computador é também frequentemente uma atividade solitária, o que expõe as crianças a um risco psicológico. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark> 
+         </text:p>
+         <text:p text:style-name="First-line-indent">Por outro lado, a Internet tem um efeito positivo no aumento da interação social através de sistema de “messaging” instantâneo e correio eletrônico, e a maior parte do tempo gasto conectado à rede é dispendida em interações sociais. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2001" text:bibliography-type="custom1">[Subrahmanyam et al. 2001]</text:bibliography-mark> Estudos realizados não salientam diferenças na sociabilidade das crianças e adolescentes que utilizam o computador durante mais tempo durante o dia e aqueles que não o fazem. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark> Entretanto, salienta-se que num cenário de uso excessivo, há a dominância de realidades e mundos simulados e imaginados, em contraponto à necessidade de experiências reais e que, em interações pelo computador, onde muitas vezes são utilizados avatares e “personas” diferenciadas daquelas do mundo real, paira sempre a dúvida sobre a identidade do interlocutor, com reflexos na formação da própria identidade da criança. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark> 
+            <text:bibliography-mark text:identifier="Subrahmanyam et al. 2001" text:bibliography-type="custom1">[Subrahmanyam et al. 2001]</text:bibliography-mark> 
+         </text:p>
+         <text:p text:style-name="First-line-indent">A exposição à Internet como fonte de consulta frequentemente resulta em melhora no desempenho acadêmico das crianças. Entretanto, não há pesquisas suficientes para comprovar solidamente o nexo causal entre esses dois fatores. Há necessidade de maiores pesquisas para determinar o efeito da utilização do computador a longo prazo na capacidade cognitiva e conquistas acadêmicas. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark> A exposição de crianças e adolescentes a alguns tipos de jogos, entretanto, já foi comprovada como tendo efeitos imediatos positivos na atenção, visão e noção espaciais e desempenho cognitivo. <text:bibliography-mark text:identifier="Subrahmanyam e Greenfield 1996"
+                                    text:bibliography-type="custom1">[Subrahmanyam e Greenfield 1996]</text:bibliography-mark> 
+            <text:span text:style-name="reference-ref">
+               <text:reference-ref text:reference-format="text" text:ref-name="Xsubrahmanyam1996evg"/>
+            </text:span>
+            <text:span text:style-name="reference-ref"> </text:span>
+         </text:p>
+         <text:p text:style-name="First-line-indent">
+            <text:soft-page-break/>Existe o risco de exposição a jogos violentos na Internet; a exposição a jogos, especialmente aqueles que premiam o uso da violência, comprovadamente aumentam a agressividade, tanto afetiva e cognitiva quanto comportamental das crianças observadas. <text:bibliography-mark text:identifier="Anderson et al. 2004" text:bibliography-type="custom1">[Anderson et al. 2004]</text:bibliography-mark> Existe, também, o risco de exposição a material inapropriado de natureza sexual. <text:bibliography-mark text:identifier="Ybarra e Mitchell 2005" text:bibliography-type="custom1">[Ybarra e Mitchell 2005]</text:bibliography-mark> Associados a esse, vêm os riscos consequentes que variam desde o erro em informações referentes à reprodução, até a possibilidade de desenvolvimento de comportamento sexualmente compulsivo. <text:bibliography-mark text:identifier="Freeman-Longo 2000" text:bibliography-type="custom1">[Freeman-Longo 2000]</text:bibliography-mark> E, por fim, existe ainda o risco do “cyber-bullying”, ataques de natureza difamatória que ocorrem “online”. Entretanto, estes últimos são muito análogos ao fenômeno do “bullying” que ocorre nas mesmas faixas etárias, ou seja, não se trata de um risco intrinsecamente ligado ao uso da Internet e sim ao ambiente e às interações sociais da criança. <text:bibliography-mark text:identifier="Ybarra e Mitchell 2004" text:bibliography-type="custom1">[Ybarra e Mitchell 2004]</text:bibliography-mark> 
+            <text:span text:style-name="reference-ref">
+               <text:reference-ref text:reference-format="text" text:ref-name="Xybarra2004yeo"/>
+            </text:span>
+            <text:bibliography-mark text:identifier="Ybarra e Mitchell 2004" text:bibliography-type="custom1">[Ybarra e Mitchell 2004]</text:bibliography-mark> 
+         </text:p>
+         <text:p text:style-name="First-line-indent">As pesquisas junto aos pais indicam que eles frequentemente compram os computadores e pagam pela conexão à Internet como um recurso educacional extra. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark> Indicam, também, que na maioria das vezes, os pais/responsáveis desconhecem o conteúdo de jogos e a dinâmica de vários tipos de interações sociais “online”. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark>
+            <text:span text:style-name="T1"> </text:span>
+            <text:span text:style-name="reference-ref">
+               <text:span text:style-name="T1">Indicam a</text:span>
+            </text:span>
+            <text:span text:style-name="T1">ind</text:span>a que, como muitas vezes os filhos têm mais conhecimento que os pais em relação ao uso do computador e da Internet, ocorre uma inversão de papéis, onde os filhos ensinam os pais, com consequentes problemas de identidade associados. <text:bibliography-mark text:identifier="Subrahmanyam et al. 2001" text:bibliography-type="custom1">[Subrahmanyam et al. 2001]</text:bibliography-mark> A maioria das pesquisas consultadas recomenda como mitigantes dos riscos associados à exposição das crianças à internet a moderação no tempo de uso da rede <text:bibliography-mark text:identifier="Attewell, Suazo-Garcia e Battle 2003"
+                                    text:bibliography-type="custom1">[Attewell, Suazo-Garcia e Battle 2003]</text:bibliography-mark> 
+            <text:bibliography-mark text:identifier="Subrahmanyam et al. 2000" text:bibliography-type="custom1">[Subrahmanyam et al. 2000]</text:bibliography-mark> 
+            <text:bibliography-mark text:identifier="Subrahmanyam et al. 2001" text:bibliography-type="custom1">[Subrahmanyam et al. 2001]</text:bibliography-mark> e o efetivo acompanhamento das atividades realizadas no computador por parte dos pais ou responsáveis. <text:bibliography-mark text:identifier="Attewell, Suazo-Garcia e Battle 2003"
+                                    text:bibliography-type="custom1">[Attewell, Suazo-Garcia e Battle 2003]</text:bibliography-mark>
+            <text:span text:style-name="reference-ref">
+               <text:span text:style-name="T1"> </text:span>
+            </text:span>
+            <text:bibliography-mark text:identifier="Ybarra e Mitchell 2004" text:bibliography-type="custom1">[Ybarra e Mitchell 2004]</text:bibliography-mark>
+            <text:span text:style-name="reference-ref">
+               <text:span text:style-name="T1"> </text:span>
+            </text:span>
+            <text:bibliography-mark text:identifier="Ybarra e Mitchell 2004" text:bibliography-type="custom1">[Ybarra e Mitchell 2004]</text:bibliography-mark>
+            <text:span text:style-name="reference-ref">
+               <text:span text:style-name="T1"> </text:span>
+            </text:span>
+            <text:bibliography-mark text:identifier="Ybarra e Mitchell 2005" text:bibliography-type="custom1">[Ybarra e Mitchell 2005]</text:bibliography-mark> 
+            <text:span text:style-name="reference-ref">
+               <text:s/>
+            </text:span>
+            <text:bibliography-mark text:identifier="Freeman-Longo 2000" text:bibliography-type="custom1">[Freeman-Longo 2000]</text:bibliography-mark>
+         </text:p>
+         <text:p text:style-name="First-line-indent">Em conclusão, a utilização da Internet pelas crianças pode comprometer, sim, o desenvolvimento de crianças e adolescentes, causando diversos problemas físicos e psicológicos. Por outro lado, existem vários benefícios que advêm do uso do computador e da Internet, especialmente quando esse uso é feito de forma moderada e com o constante acompanhamento e monitoramento dos pais ou responsáveis. </text:p>
+         <text:h text:style-name="Heading-2" text:outline-level="2">
+            <text:reference-mark text:name="x1-1000"/>Referências</text:h>
+         <text:p text:style-name="Text-body"/>
+         <text:bibliography text:style-name="Sect1" text:name="bib-1">
+            <text:bibliography-source>
+               <text:index-title-template text:style-name="Bibliography_20_Heading">Referências</text:index-title-template>
+               <text:bibliography-entry-template text:bibliography-type="article" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="book" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="booklet" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="conference" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="custom1" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="custom2" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="custom3" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="custom4" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="custom5" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="email" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="inbook" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="incollection" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="inproceedings" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="journal" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="manual" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="mastersthesis" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="misc" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="url"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="phdthesis" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="proceedings" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="techreport" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="unpublished" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+               <text:bibliography-entry-template text:bibliography-type="www" text:style-name="Bibliography_20_1">
+                  <text:index-entry-bibliography text:bibliography-data-field="identifier"/>
+                  <text:index-entry-span>: </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="author"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="title"/>
+                  <text:index-entry-span>, </text:index-entry-span>
+                  <text:index-entry-bibliography text:bibliography-data-field="year"/>
+               </text:bibliography-entry-template>
+            </text:bibliography-source>
+            <text:index-body>
+               <text:p text:style-name="p-bibitem">[Anderson et al. 2004]<text:reference-mark text:name="Xanderson2004vvg"/> ANDERSON, C. et al. Violent video games: Specific effects of violent content on aggressive thoughts and behavior. <text:span text:style-name="Emphasis">Advances in experimental social psychology</text:span>, ACADEMIC PRESS INC LTD, v. 36, p. 200–251, 2004. </text:p>
+               <text:p text:style-name="p-bibitem">[Attewell, Suazo-Garcia e Battle 2003]<text:reference-mark text:name="Xattewell2003cay"/> ATTEWELL, P.; SUAZO-GARCIA, B.; BATTLE, J. Computers and young children: Social benefit or social problem? <text:span text:style-name="Emphasis">Social Forces</text:span>, University of North Carolina Press, p. 277–296, 2003. </text:p>
+               <text:p text:style-name="p-bibitem">[Freeman-Longo 2000]<text:reference-mark text:name="Xfreemanlongo2000cta"/> FREEMAN-LONGO, R. Children, teens, and sex on the Internet. <text:span text:style-name="Emphasis">Cybersex: The Dark Side of the Force: a Special Issue of the Journal Sexual Addiction &amp; Compulsivity</text:span>, Brunner-Routledge, p. 75, 2000. </text:p>
+               <text:p text:style-name="p-bibitem">[Subrahmanyam e Greenfield 1996]<text:reference-mark text:name="Xsubrahmanyam1996evg"/> SUBRAHMANYAM, K.; GREENFIELD, P. Effect of video game practice on spatial skills in girls and boys. <text:span text:style-name="Emphasis">Interacting with video</text:span>, p. 95–114, 1996. </text:p>
+               <text:p text:style-name="p-bibitem">[Subrahmanyam et al. 2001]<text:reference-mark text:name="Xsubrahmanyam2001icu"/> SUBRAHMANYAM, K. et al. The impact of computer use on children’s and adolescents’ development. <text:span text:style-name="Emphasis">Journal of Applied Developmental Psychology</text:span>, Elsevier, v. 22, n. 1, p. 7–30, 2001. </text:p>
+               <text:p text:style-name="p-bibitem">[Subrahmanyam et al. 2000]<text:reference-mark text:name="Xsubrahmanyam2000ihc"/> SUBRAHMANYAM, K. et al. The impact of home computer use on children’s activities and development. <text:span text:style-name="Emphasis">The future of children</text:span>, Center for the Future of Children, the David and Lucile Packard Foundation, p. 123–144, 2000. </text:p>
+               <text:p text:style-name="p-bibitem">[Ybarra e Mitchell 2004]<text:reference-mark text:name="Xybarra2004oat"/> YBARRA, M.; MITCHELL, K. Online aggressor/targets, aggressors, and targets: a comparison of associated youth characteristics. <text:span text:style-name="Emphasis">Journal of Child Psychology and Psychiatry</text:span>, Blackwell Publishing, v. 45, n. 7, p. 1308–1316, 2004. </text:p>
+               <text:p text:style-name="p-bibitem">[Ybarra e Mitchell 2004]<text:reference-mark text:name="Xybarra2004yeo"/> YBARRA, M.; MITCHELL, K. Youth engaging in online harassment: associations with caregiver–child relationships, Internet use, and personal characteristics. <text:span text:style-name="Emphasis">Journal of Adolescence</text:span>, Elsevier, v. 27, n. 3, p. 319–336, 2004. </text:p>
+               <text:p text:style-name="p-bibitem">[Ybarra e Mitchell 2005]<text:reference-mark text:name="Xybarra2005eip"/> YBARRA, M.; MITCHELL, K. Exposure to Internet pornography among children and adolescents: a national survey. <text:span text:style-name="Emphasis">CyberPsychology &amp; Behavior</text:span>, Mary Ann Liebert, Inc. 2 Madison Avenue Larchmont, NY 10538 USA, v. 8, n. 5, p. 473–486, 2005. </text:p>
+            </text:index-body>
+         </text:bibliography>
+      </office:text>
+   </office:body>
+</office:document>
